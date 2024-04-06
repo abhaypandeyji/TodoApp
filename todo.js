@@ -1,15 +1,15 @@
 console.log("jai shree krishna bolo jai Radhe");
 
-// let todoList = [
-//     {
-//         item: 'Chanting', 
-//         dueDate: '2024-04-06'
-//     },
-//     {
-//         item: 'Hearing', 
-//         dueDate: '2024-04-06'
-//     }
-// ];
+let todoList = [
+    {
+        item: 'Chanting', 
+        dueDate: '2024-04-06'
+    },
+    {
+        item: 'Hearing', 
+        dueDate: '2024-04-06'
+    }
+];
 
 let st = localStorage.getItem('todoList');
 todoList = JSON.parse(st);
